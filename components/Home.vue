@@ -10,7 +10,7 @@
     <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
         <a href="https://www.rti.org.tw/" target="_blank" class="-m-1.5 p-1.5">
-          <img class="h-8 w-auto" src="../assets/Rti_logo.png" alt="">
+          <img class="h-8 hidden lg:block" src="../assets/Rti_logo.png" alt="">
         </a>
       </div>
     </nav>
