@@ -1,17 +1,8 @@
 <template>
-    <div class="wrap flex flex-col items-center bg-blue-600 text-white text-4xl p-12">
+    <div class="wrap flex flex-col items-center bg-rti_ing_orange text-rti_ing_white text-2xl p-12 sm:px-16 lg:px-64 pt-8 gap-8">
         <h2>參與須知</h2>
-
-        <ul class="list-decimal   px-64 pt-8 gap-8">
-            <li>參與本次活動者，可透過電子信箱、傳統信件郵寄、傳真或網路社群平台等方式參與。</li>
-            <li>活動截止後，統計票選結果，並公佈得獎名單。</li>
-            <li>因國際航空郵件嚴格管制含電池產品寄送，因此使用電池的獎項，一律以不附帶電池的方式送出。</li>
-            <li>因應突發狀況，主辦單位針對活動相關事項，保有更動與解釋的權利。</li>
-            <li>得獎公布日期：112年9月28日</li>
-            <li>活動聯絡人：<br>
-              譚志薏（tan@rti.org.tw）<br>
-                李正純（nir@rti.org.tw）</li>
-        </ul>
+        <p>財團法人中央廣播電臺 臺北市104中山區北安路55號 TEL:886-2-28856168 FAX:886-2-28855423</p>
+        <p>本網站建議使用Chrome、Firefox、Edge、Safari等電腦或行動裝置瀏覽器，本站不支援舊版IE瀏覽器。</p>
     </div>
 </template>
 

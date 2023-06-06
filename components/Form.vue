@@ -1,63 +1,44 @@
 <template>
-    <div class="flex flex-col items-center bg-blue-600 text-white text-2xl md:text-4xl gap-1 md:gap-2 p-12">
-        <h2>活動期間</h2>
-        <p>112年06月1日～112年08月31日</p>       
+    <div class="flex flex-col items-center text-rti_ing_white bg-rti_ing_shadow text-2xl md:text-4xl gap-1 md:gap-2 p-12">
+        <h2>活動日期</h2>
+        <p class="pt-8">6月12日到7月3日</p>       
     </div>
-    <div class="wrap flex justify-center pb-8">
-        <div class="w-1/4 pt-10">
-            <img src="../assets/images/googleform.png" class="pb-0 md:pb-16" alt="">
-            <p class="ml-5 md:pl-28 pt-2 md:pt-0"><a href="https://www.rti.org.tw/" target="_blank">點我參加</a></p>
+    <div class="wrap flex flex-col text-rti_ing_white items-center pt-8 pb-8 px-8">
+         <h2 class="text-4xl ">活動辦法</h2>
+         <p class="text-2xl pt-8">一句話:一句話寫出收聽「兩岸ING」節目的感想。</p>
+         <p class="text-2xl pt-8">二選一:兩個新聞時事選擇題中任選ㄧ題作答。</p>
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center p-12 pb-8 lg:px-16">
+        <div class=" w-auto sm:w-1/2 md:w-1/2 lg:w-1/4 pt-10 pr-8">
+            <a href="https://docs.google.com/forms/d/e/1faipqlsfazpxx6zyhfkqrs3auvcm8u4bkdwltoi6-hin-4nobocrh1q/viewform" target="_blank">
+                <img src="../assets/images/gf_icon.png" class="pb-0 pl-12 md:pl-0 md:pb-16 scale-100 hover:scale-110 ease-in duration-200" alt="">
+            </a>
         </div>
-        <div class="w-1/4 pt-10">
-            <img src="../assets/images/qq.png" alt="">
-            <p class="ml-5 md:pl-28 pt-4 md:pt-0"><a href="https://www.rti.org.tw/" target="_blank">點我參加</a></p>
+        <div class="w-auto md:w-1/2 lg:w-1/4 pt-10">
+            <a href="https://wj.qq.com/s2/12424990/78db/" target="_blank">
+                <img src="../assets/images/T_icon.png" class="scale-100 hover:scale-110 ease-in duration-200" alt="">
+            </a>
         </div>
     </div>
-    <div class="flex flex-col items-center bg-blue-600 text-4xl gap-2 p-12">
-        <h2>現場節目</h2>
-        <p class="text-3xl px-64 pt-10">主持人以台灣10座夢幻湖泊為主題，在活動期間於央廣官網、微博等平台分享資訊之後，並開啟直播，進行現場猜謎活動，就有機會獲得故宮精品禮品。</p>
-    </div>
+    <div class="flex flex-col items-center bg-rti_ing_shadow text-4xl gap-2 p-12">
     <div class="wrap flex flex-col items-center pt-8 pb-8">
-         <h2 class="text-4xl text-red-600">精美禮品</h2>
-         <p class="text-sm">(圖片來自故宮精品網站)</p>
+         <h2 class="text-4xl text-red-600">活動獎項</h2>
     </div>
-    <div class="flex px-64 pb-8">
-        <div class="w-1/5 pt-10">
-            <img src="../assets/images/veg.jpg" alt="">
-            <div class="text-center">
-                <p class="text-red-400 text-sl">故宮翠玉白菜</p>
-                <p class="text-red-400 text-sl">微單筒望遠鏡</p>
-                <p>一名</p>
+    <div class="flex flex-col md:flex-row lg:px-64 pb-8 justify-center text-rti_ing_white">
+        <div class="w-auto md:w-1/2 lg:w-1/4 lg:mr-20">
+            <img src="../assets/images/Sjacket_1500_1800.png" alt="">
+            <div class="text-center text-xl">
+                <p class="break-keep">《頭獎》共五名，各獲得一件台灣製機能衣。</p>
+                <p class="">(長袖機能衣示意圖)</p>
             </div>
         </div>
-        <div class="w-1/5 pt-10">
-            <img src="../assets/images/tea.jpg" alt="">
-            <div class="text-center">
-                <p class="text-red-400 text-sl">故宮國寶奇種</p>
-                <p class="text-red-400 text-sl">烏龍茶組</p>
-                <p>二名</p>
+        <div class="w-auto md:w-1/2 lg:w-1/4">
+            <img src="../assets/images/backbag_1500_1800.png" alt="">
+            <div class="text-center text-xl">
+                <p class="lg:break-keep">《特獎》共五名，各獲得一個台灣製背包。</p>
+                <p class="text-xl">(雙肩背包示意圖)</p>
             </div>
         </div>
-        <div class="w-1/5 pt-10">
-            <img src="../assets/images/pen.jpg" alt="">
-            <div class="text-center">
-                <p class="text-red-400 text-sl">故宮鋼筆禮盒</p>
-                <p>二名</p>
-            </div>
-        </div>
-        <div class="w-1/5 pt-10">
-            <img src="../assets/images/block.jpg" alt="">
-            <div class="text-center">
-                <p class="text-red-400 text-sl">故宮造型積木</p>
-                <p>十名</p>
-            </div>
-        </div>
-        <div class="w-1/5 pt-10">
-            <img src="../assets/images/T-shirt.jpg" alt="">
-            <div class="text-center">
-                <p class="text-red-400 text-sl">故宮T恤</p>
-                <p>十名</p>
-            </div>
-        </div>
+       </div>
     </div>
 </template>

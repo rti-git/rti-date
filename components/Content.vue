@@ -1,5 +1,5 @@
 <template>
-        <div class="flex text-2xl md:flex-wrap-reverse lg:text-4xl gap-8 p-8 px-8 md:px-64">
-        <p class="">台灣由於地形因素，有許多各式各樣的湖泊，有小而美的湖泊、也有藏在山中令人驚豔的湖泊美景，本年度活動就以「<span class="text-red-600">台灣10座夢幻湖泊</span>」為主題，包括南投<span class="text-blue-100">日月潭</span>、新北<span class="text-blue-100">松蘿湖</span>、宜蘭<span class="text-blue-100">加羅湖</span>、<span class="text-blue-100">梅花湖</span>、<span class="text-blue-100">翠峰湖</span>、新竹<span class="text-blue-100">鴛鴦湖</span>、花蓮<span class="text-blue-100">鯉魚潭</span>、台東<span class="text-blue-100">嘉明湖</span>、<span class="text-blue-100">琵琶湖</span>、高雄<span class="text-blue-100">澄清湖</span>等，進行網路票選活動，並搭配現場LIVE直播節目，更深入與聽眾互動。</p>
+    <div class="flex text-2xl md:flex-wrap-reverse lg:text-4xl font-bold gap-8 p-16 px-8 sm:px-16 lg:px-64">
+        <p class="text-rti_ing_white">相逢自是有緣，新聞時事性節目「兩岸ing」自2013年開播至今，目前每週一至週五18:00~18:30在央廣播出。為感謝聽有長期的收聽與支持，節目特別舉辦「相逢十年 兩岸ING抽好禮」活動。</p>
     </div>
 </template>

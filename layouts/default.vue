@@ -1,17 +1,16 @@
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
-    <Home />
+  <!-- <Home />
     <Content />
     <Intr />
     <Form /> 
-    <Footer />
-    <slot />
+    <Footer /> -->
+  <slot />
 </template>
 
 <style scoped>
-li{
-    font-family: Arial, Helvetica, sans-serif;
+li {
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>
