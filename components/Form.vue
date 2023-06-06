@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center text-rti_ing_white bg-rti_ing_shadow text-2xl md:text-4xl gap-1 md:gap-2 p-12">
-        <h2>活動日期</h2>
+        <h2 class="text-4xl">活動日期</h2>
         <p class="pt-8">6月12日到7月3日</p>       
     </div>
     <div class="wrap flex flex-col text-rti_ing_white items-center pt-8 pb-8 px-8">
@@ -22,7 +22,7 @@
     </div>
     <div class="flex flex-col items-center bg-rti_ing_shadow text-4xl gap-2 p-12">
     <div class="wrap flex flex-col items-center pt-8 pb-8">
-         <h2 class="text-4xl text-red-600">活動獎項</h2>
+         <h2 class="text-4xl">活動獎項</h2>
     </div>
     <div class="flex flex-col md:flex-row lg:px-64 pb-8 justify-center text-rti_ing_white">
         <div class="w-auto md:w-1/2 lg:w-1/4 lg:mr-20">

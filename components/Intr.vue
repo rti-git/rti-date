@@ -1,6 +1,6 @@
 <template>
    <div class="flex flex-col items-center text-3xl p-8 md:p-24">
-      <h2>參與須知</h2>
+      <h2 class="text-4xl">活動須知</h2>
         <ul class="list-decimal text-2xl pl-8 sm:px-16 lg:px-64 pt-8 gap-8">
             <li>參與活動請上央廣活動官網。活動電子信箱:ing@rti.org.tw。</li>
             <li>參加者請附上真實姓名(發表時可用筆名)、國籍、通訊地址、出生年月日、聯絡電話、email。<br>主辦單位將依個人資料保護法保護個資</li>
