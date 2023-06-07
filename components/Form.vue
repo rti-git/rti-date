@@ -6,16 +6,16 @@
     <div class="wrap flex flex-col text-rti_ing_white items-center pt-8 pb-8 px-8">
          <h2 class="text-4xl ">活動辦法</h2>
          <p class="text-2xl pt-8">一句話:一句話寫出收聽「兩岸ING」節目的感想。</p>
-         <p class="text-2xl pt-8">二選一:兩個新聞時事選擇題中任選ㄧ題作答。</p>
+         <p class="text-2xl pt-8">二選一:兩個新聞時事選擇題中任選一題作答。</p>
     </div>
     <div class="flex flex-col md:flex-row justify-center items-center p-12 pb-8 lg:px-16">
         <div class=" w-auto sm:w-1/2 md:w-1/2 lg:w-1/4 pt-10 pr-8">
-            <a href="https://docs.google.com/forms/d/e/1faipqlsfazpxx6zyhfkqrs3auvcm8u4bkdwltoi6-hin-4nobocrh1q/viewform" target="_blank">
+            <a href="https://rti.org.tw" target="_blank">
                 <img src="../assets/images/gf_icon.png" class="pb-0 pl-12 md:pl-0 md:pb-16 scale-100 hover:scale-110 ease-in duration-200" alt="">
             </a>
         </div>
         <div class="w-auto md:w-1/2 lg:w-1/4 pt-10">
-            <a href="https://wj.qq.com/s2/12424990/78db/" target="_blank">
+            <a href="https://rti.org.tw" target="_blank">
                 <img src="../assets/images/T_icon.png" class="scale-100 hover:scale-110 ease-in duration-200" alt="">
             </a>
         </div>

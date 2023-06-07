@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     },
   },
   gtag: {
-    id: 'G-EBWDXEH8P'
+    id: 'G-EBWDXEHD8P'
   },
   css: ['@/assets/css/tailwind.css'],
 })
