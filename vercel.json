@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/2023ing/:path*",
+      "destination": "https://events.rti.org.tw/:path*"
+    }
+  ]
+}
+
