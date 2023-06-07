@@ -5,18 +5,16 @@ specifiers:
   '@types/node': ^18
   autoprefixer: ^10.4.14
   nuxt: ^3.4.3
+  nuxt-gtag: ^0.5.7
   postcss: ^8.4.23
   tailwindcss: ^3.3.2
-  vue-gtag-next: ^1.14.0
-
-dependencies:
-  vue-gtag-next: 1.14.0
 
 devDependencies:
   '@nuxtjs/tailwindcss': 6.6.7
   '@types/node': 18.16.3
   autoprefixer: 10.4.14_postcss@8.4.23
   nuxt: 3.4.3_@types+node@18.16.3
+  nuxt-gtag: 0.5.7
   postcss: 8.4.23
   tailwindcss: 3.3.2
 
@@ -3698,6 +3696,17 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /nuxt-gtag/0.5.7:
+    resolution: {integrity: sha512-Q6NRndEJ0phEfKdS4uLy3hpVBkgWGnG5KJ2dhVyCmbLXcfakkmf19f2WJ5uM2yUOg8rAkYgDjRb9XyAfE+okuA==}
+    dependencies:
+      '@nuxt/kit': 3.5.1
+      defu: 6.1.2
+      pathe: 1.1.0
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
   /nuxt/3.4.3_@types+node@18.16.3:
     resolution: {integrity: sha512-rOEdhHRH33m3L7aJDO7N8C+NC2vSa2mC/0hH/ePmg2S03qkzS0bVg1pIWW9ESDV5UVPFtfhOGoDTEkLJqvE18A==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -5539,12 +5548,6 @@ packages:
   /vue-devtools-stub/0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
     dev: true
-
-  /vue-gtag-next/1.14.0:
-    resolution: {integrity: sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw==}
-    peerDependencies:
-      vue: ^3.0.0-rc.11
-    dev: false
 
   /vue-router/4.1.6_vue@3.2.47:
     resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}

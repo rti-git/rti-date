@@ -7,12 +7,15 @@ export default defineNuxtConfig({
       ]
     }
   },
- modules: ['@nuxtjs/tailwindcss'], 
+ modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'], 
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
+  },
+  gtag: {
+    id: 'G-EBWDXEH8P'
   },
   css: ['@/assets/css/tailwind.css'],
 })
