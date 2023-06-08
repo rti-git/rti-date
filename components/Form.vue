@@ -10,12 +10,12 @@
     </div>
     <div class="flex flex-col md:flex-row justify-center items-center p-12 pb-8 lg:px-16">
         <div class=" w-auto sm:w-1/2 md:w-1/2 lg:w-1/4 pt-10 pr-8">
-            <a href="https://rti.org.tw" target="_blank">
+            <a href="https://docs.google.com/forms/d/1D3nZjh8pz41Zb6iDk4JWziQPaSUoRsHTV9lW3tEMsp0" target="_blank">
                 <img src="../assets/images/gf_icon.png" class="pb-0 pl-12 md:pl-0 md:pb-16 scale-100 hover:scale-110 ease-in duration-200" alt="">
             </a>
         </div>
         <div class="w-auto md:w-1/2 lg:w-1/4 pt-10">
-            <a href="https://rti.org.tw" target="_blank">
+            <a href="https://wj.qq.com/s2/12519083/b718/" target="_blank">
                 <img src="../assets/images/T_icon.png" class="scale-100 hover:scale-110 ease-in duration-200" alt="">
             </a>
         </div>
