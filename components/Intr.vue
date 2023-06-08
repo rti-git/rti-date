@@ -1,5 +1,5 @@
 <template>
-   <div class="flex flex-col items-center text-3xl p-8 md:p-24">
+   <div class="flex flex-col items-center text-3xl bg-rti_ing_feet p-8 md:p-24">
       <h2 class="text-4xl">活動須知</h2>
         <ul class="list-decimal text-2xl pl-8 sm:px-16 lg:px-64 pt-8 gap-8">
             <li>參與活動請上央廣活動官網。活動電子信箱:<a href="mailto:tan@rti.org.tw">（ing@rti.org.tw）</a>。</li>

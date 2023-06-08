@@ -1,9 +1,9 @@
 <template>
-    <div class="flex flex-col items-center text-rti_ing_white bg-rti_ing_shadow text-2xl md:text-4xl gap-1 md:gap-2 p-12">
+    <div class="flex flex-col items-center text-rti_ing_white bg-rti_ing_green text-2xl md:text-4xl gap-1 md:gap-2 p-12">
         <h2 class="text-4xl">活動日期</h2>
         <p class="pt-8">6月12日到7月3日</p>       
     </div>
-    <div class="wrap flex flex-col text-rti_ing_white items-center pt-8 pb-8 px-8">
+    <div class="wrap flex flex-col text-rti_ing_white bg-rti_ing_feet items-center pt-8 pb-8 px-8">
          <h2 class="text-4xl ">活動辦法</h2>
          <p class="text-2xl pt-8">一句話:一句話寫出收聽「兩岸ING」節目的感想。</p>
          <p class="text-2xl pt-8">二選一:兩個新聞時事選擇題中任選一題作答。</p>
@@ -20,7 +20,7 @@
             </a>
         </div>
     </div>
-    <div class="flex flex-col items-center bg-rti_ing_shadow text-4xl gap-2 p-12">
+    <div class="flex flex-col items-center bg-rti_ing_green text-4xl gap-2 p-12">
     <div class="wrap flex flex-col items-center pt-8 pb-8">
          <h2 class="text-4xl">活動獎項</h2>
     </div>
