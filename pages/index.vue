@@ -2,7 +2,7 @@
 // const { count, addCount } = useAddCount();
 //const store = useHomeStore();
 
-    const title = ref('與台灣有約兩岸ING')
+    const title = ref('與臺灣有約兩岸ING')
     useHead({
         title,
     })
