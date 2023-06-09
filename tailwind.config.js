@@ -12,7 +12,8 @@ module.exports = {
           'rti_ing_white': '#656363',
           'rti_ing_orange': '#f7dcbe',
           'rti_ing_green': '#C0F7A4',
-          'rti_ing_feet': '#ec9b7d'
+          'rti_ing_feet': '#ec9b7d',
+          'rti_ing_footer': '#c96c41'
         },
     },
   },
