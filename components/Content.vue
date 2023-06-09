@@ -1,5 +1,5 @@
 <template>
-    <div class="flex text-2xl md:flex-wrap lg:text-4xl  bg-rti_ing_green gap-8 p-16 px-8 sm:px-16 lg:px-64">
+    <div class="flex flex-col text-2xl md:flex-wrap lg:text-4xl  bg-rti_ing_green gap-8 p-16 px-8 sm:px-16 lg:px-64">
         <div class=" text-rti_ing_white">相逢自是有緣，自2013年開播至今的央廣<a href="https://www.rti.org.tw/radio/programView/id/788"><span class="text-green-800 font-bold">「兩岸ING」</span></a>節目，為了感謝您長期的收聽與支持，在端午節前後特別舉辦<span class="text-red-500 font-bold">「相逢滿十年  兩岸ING抽好禮」</span>活動。
         </div>
         <div class="text-rti_ing_white">
