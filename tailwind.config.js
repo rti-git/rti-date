@@ -15,6 +15,9 @@ module.exports = {
           'rti_ing_feet': '#ec9b7d',
           'rti_ing_footer': '#c96c41'
         },
+    listStyleType: {
+      'cjk-ideographic': 'chinese'
+      }
     },
   },
   plugins: [],

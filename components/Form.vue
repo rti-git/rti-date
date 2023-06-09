@@ -8,7 +8,7 @@
          <p class="text-2xl pt-8"><span class="text-rti_green">一句話:</span>一句話寫出收聽<span class="text-rti_green">「兩岸ING」</span>節目的感想。</p>
          <p class="text-2xl pt-8"><span>二選一</span>:在以下兩個新聞時事選擇題中任選一題作答。</p>
          <div class="text-2xl sm:px-16 lg:px-64">
-            <ul class="list-decimal pl-8 pt-8">
+            <ul class="list-[cjk-ideographic] pl-8 pt-8">
                 <li>5月舉行的七大工業國集團(G7)領袖高峰會，輪值主席國日本的首相岸田文雄指出，這次峰會再度確認台海和平穩定的重要性。而這次G7峰會是在那裡舉行？ </li>
                 <li>今年的亞太經濟合作會議(APEC)由美國主辦，APEC貿易部長會議5月下旬在美國底特律舉辦。而今年11月的APEC領袖峰會將在哪個城市舉行？ </li>
             </ul>
