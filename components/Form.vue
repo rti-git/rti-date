@@ -38,13 +38,13 @@
         <div class="w-auto md:w-1/2 lg:w-1/6 lg:mr-20">
             <img src="../assets/images/backbag_1500_1800.png" alt="">
             <div class="text-center text-2xl">
-                <p class=""><span class="text-green-800 font-bold">《特獎》</span>共五名，各獲得一個<span class="text-green-800 font-bold">台灣製</span>多功能運動<span class="text-green-800">背包</span>。</p>
+                <p class=""><span class="text-green-800 font-bold">《特獎》</span>共五名，各獲得一個<span class="text-green-800 font-bold">台灣製</span>多功能運動<span class="text-green-800 font-bold">背包</span>。</p>
             </div>
         </div>
         <div class="w-auto md:w-1/2 lg:w-1/6 lg:mr-20">
             <img src="../assets/images/Sjacket_1500_1800.png" alt="">
             <div class="text-center text-2xl">
-                <p><span class="text-green-800 font-bold">《頭獎》</span>共五名，各獲得一件<span class="text-green-800 font-bold">台灣製</span>休閒<span class="text-green-800">機能衣</span>。</p>
+                <p><span class="text-green-800 font-bold">《頭獎》</span>共五名，各獲得一件<span class="text-green-800 font-bold">台灣製</span>休閒<span class="text-green-800 font-bold">機能衣</span>。</p>
             </div>
         </div>
        </div>
