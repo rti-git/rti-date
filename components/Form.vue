@@ -5,14 +5,15 @@
     </div>
     <div class="wrap flex flex-col text-rti_ing_white bg-rti_ing_green items-center pt-8 pb-8 px-8">
          <h2 class="text-4xl font-bold">怎麼參加</h2>
-         <div class="text-2xl pt-8"><span class="text-green-800">一句話：</span>一句話寫出收聽<span class="text-green-800">「兩岸ING」</span>節目的感想。</div>
-         <p class="text-2xl pt-8"><span class="text-green-800">二選一</span>：在以下兩個新聞時事選擇題中任選一題作答。</p>
+         <div class="text-2xl mt-8 bg-yellow-300"><span class="text-green-800 font-bold">一句話：</span>一句話寫出收聽<span class="text-green-800 font-bold">「兩岸ING」</span>節目的感想。</div>
+         <div class="text-2xl mt-8 bg-yellow-300"><span class="text-green-800 font-bold">二選一</span>：在以下兩個新聞時事選擇題中任選一題作答。</div>
          <div class="text-2xl sm:px-16 lg:px-64">
             <ul class="list-[cjk-ideographic] pl-8 pt-8">
                 <li>5月舉行的七大工業國集團(G7)領袖高峰會，輪值主席國日本的首相岸田文雄指出，這次峰會再度確認台海和平穩定的重要性。而這次G7峰會是在那裡舉行？ </li>
                 <li>今年的亞太經濟合作會議(APEC)由美國主辦，APEC貿易部長會議5月下旬在美國底特律舉辦。而今年11月的APEC領袖峰會將在哪個城市舉行？ </li>
             </ul>
-            <p class="pt-8">想要參加活動的朋友，只要一句話寫出收聽<span class="text-green-800">「兩岸ING」</span>節目的感想，並答對其中一個新聞時事選擇題(點選以下兩個表單其中之一作答)，就有機會抽中精美好禮。<span class="text-green-800">抽獎日期:</span>在活動結束後十天內於<span class="text-green-800">「兩岸ING」</span>節目中公開進行。</p>
+            <div class="selection:text-yellow-300 selection:bg-yellow-700 pt-8"><span class="bg-yellow-300">想要參加活動的朋友，只要一句話寫出收聽</span><span class="text-green-800 bg-yellow-300 font-bold">「兩岸ING」</span><span class="bg-yellow-300">節目的感想，並答對其中一個新聞時事選擇題(點選以下兩個表單其中之一作答)，就有機會抽中精美好禮。</span></div>
+            <span class="bg-yellow-300"><span class="text-green-800 font-bold">抽獎日期:</span>在活動結束後十天內於<span class="text-green-800 font-bold">「兩岸ING」</span>節目中公開進行。</span>
         </div>
     </div>
     <div class="flex flex-col md:flex-row justify-center items-center p-12 pb-8 lg:px-16">
