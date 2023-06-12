@@ -3,7 +3,7 @@
         <div class=" text-rti_ing_white">相逢自是有緣，自2013年開播至今的央廣<a href="https://www.rti.org.tw/radio/programView/id/788"><span class="text-green-800 font-bold">「兩岸ING」</span></a>節目，為了感謝您長期的收聽與支持，在端午節前後特別舉辦<span class="text-red-500 font-bold">「相逢滿十年  兩岸ING抽好禮」</span>活動。
         </div>
         <div class="text-rti_ing_white">
-            <span class="text-green-800 font-bold">「兩岸ING」</span>節目走過十年，歡迎舊雨新知踴躍參加活動，只要過兩關：<span class="text-green-800 font-bold">「一句話、二選一」</span>，就有機會抽中好禮。
+            <a href="https://www.rti.org.tw/radio/programView/id/788"><span class="text-green-800 font-bold">「兩岸ING」</span></a>節目走過十年，歡迎舊雨新知踴躍參加活動，只要過兩關：<span class="text-green-800 font-bold">「一句話、二選一」</span>，就有機會抽中好禮。
         </div>
     </div>
 </template>

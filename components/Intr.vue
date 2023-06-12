@@ -1,11 +1,11 @@
 <template>
    <div class="flex flex-col items-center text-3xl text-white bg-rti_ing_feet p-8 md:p-24">
-      <h2 class="text-4xl">活動須知</h2>
+      <h2 class="text-4xl font-bold">活動須知</h2>
         <ul class="list-decimal text-2xl pl-8 sm:px-16 lg:px-64 pt-8 gap-8">
             <li>參加活動請上央廣活動官網。活動電子信箱:<a href="mailto:ing@rti.org.tw">（ing@rti.org.tw）</a>。</li>
             <li>參加者請附上真實姓名(發表時可用筆名)、國籍、通訊地址、出生年月日、聯絡電話、email。<br>主辦單位將依個人資料保護法保護個資。</li>
             <li>參加者可重複參與活動，但以任何不當程式進行大量資料發送者，主辦單位將取消其參加資格。<br>若同一人抽中兩個以上獎項，以一份為限，再另外抽出其他尚未獲獎者。</li>
-            <li>節目將於央廣官網及「兩岸ING」臉書同步公佈中獎名單。</li>
+            <li>節目將於央廣官網及<a href="https://www.rti.org.tw/radio/programView/id/788"><span class=" font-bold">「兩岸ING」</span></a>臉書同步公佈中獎名單。</li>
             <li>得獎者請於抽獎名單公佈後7天內回傳活動信箱<a href="mailto:ing@rti.org.tw">（ing@rti.org.tw）</a>個人資料:真實姓名、國籍、通訊地址、出生年月日、聯絡電話，以進行身份確認;無法於指定期限內提供者，視同放棄得獎資格。</li>
             <li>獎品將依填寫資料寄送，如有資料不完整、資料不正確及所留資料無法聯絡導致無法寄送之情事，視同放棄獎品，將不補發或重寄。</li>
             <li>本活動之獎品不得轉換、轉讓或折換現金，獎品以實際商品為主。</li>
