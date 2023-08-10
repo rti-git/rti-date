@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       ]
     }
   },
- modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'], 
+ modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     },
   },
   gtag: {
-    id: 'G-EBWDXEHD8P'
+    id: 'G-'
   },
   css: ['@/assets/css/tailwind.css'],
 })
