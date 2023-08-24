@@ -15,7 +15,8 @@ module.exports = {
           'rti_ing_feet': '#ec9b7d',
           'rti_ing_footer': '#c96c41',
           'rti_spot_title': '#f6502a',
-          'rti_spot_bg': '#faf5d9'
+          'rti_spot_bg': '#faf5d9',
+          'rti_spot_text': '#656363'
         },
     listStyleType: {
       'cjk-ideographic': 'chinese'
