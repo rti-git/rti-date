@@ -14,6 +14,7 @@
   <Content />
   <Form />
   <Intr />
+  <Gift />
   <Footer />
   <!-- <div>
         <h1>首頁: {{ count }}</h1>
