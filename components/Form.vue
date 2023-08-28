@@ -3,12 +3,12 @@
         <h2 class="text-4xl font-bold">活動遊戲：</h2>
     <div class="flex flex-col md:flex-row justify-center items-center  p-12 pb-8 lg:px-16">
         <div class="flex flex-col items-center text-3xl w-auto sm:w-1/2 md:w-1/2 lg:w-1/4 pt-10 pr-8">
-            <a href="https://www.rti.org.tw/" target="_blank">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdARvdvgaF96GeYd9uRm9McVHOUSb2qXeuO1C0LWAXIVO2Wsg/viewform" target="_blank">
                 <img src="../assets/images/gf_icon.png" class="pb-0 pl-12 md:pl-0 md:pb-16 scale-100 hover:scale-110 ease-in duration-200" alt="">
             </a>
         </div>
         <div class="flex flex-col items-center text-3xl w-auto md:w-1/2 lg:w-1/4 pt-10">
-            <a href="https://www.rti.org.tw/" target="_blank">
+            <a href="https://wj.qq.com/s2/12994009/6f4a/" target="_blank">
                 <img src="../assets/images/T_icon.png" class="scale-100 hover:scale-110 ease-in duration-200" alt="">
             </a>
         </div>
