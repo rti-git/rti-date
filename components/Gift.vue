@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col bg-rti_ing_green h-auto  text-4xl p-16 sm:px-16 lg:px-64">
+    <div class="flex flex-col bg-rti_spot_bg h-auto  text-4xl p-16 sm:px-16 lg:px-64">
          <h2 class="font-bold text-rti_spot_title pb-8 ">活動贈品：</h2>
         <div class="flex flex-col text-center  md:flex-row h-3/5  lg:px-68 justify-between  pb-8 text-rti_ing_white">
             <div class="w-auto md:w-1/3 lg:w-auto">
