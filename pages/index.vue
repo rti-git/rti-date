@@ -1,8 +1,5 @@
 <script setup>
-// const { count, addCount } = useAddCount();
-//const store = useHomeStore();
-
-    const title = ref('與臺灣有約兩岸ING')
+    const title = ref('臺灣心玩法')
     useHead({
         title,
     })
@@ -16,8 +13,4 @@
   <Intr />
   <Gift />
   <Footer />
-  <!-- <div>
-        <h1>首頁: {{ count }}</h1>
-        <button @click="$event => store.add">add</button>
-    </div> -->
 </template>
