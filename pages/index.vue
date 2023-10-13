@@ -8,9 +8,9 @@
 
 <template>
   <Home />
-  <Content />
+ <!-- <Content />
   <Form />
-  <Intr />
+  <Intr /> -->
   <Gift />
   <Footer />
 </template>
