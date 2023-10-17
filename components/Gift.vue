@@ -26,8 +26,8 @@
         </div>
     </div>
       <div class="wrap flex flex-col items-center pt-8 pb-8">
-        <h2 class="text-4xl text-red-600">臺灣十大湖景票選活動得獎名單出爐！</h2>
-        <p class="text-2xl pt-12">恭喜得獎人：</p>
+        <h2 class="text-4xl text-red-600">臺灣新玩法有獎徵答活動-得獎名單</h2>
+        <!--<p class="text-2xl pt-12">恭喜得獎人：</p> -->
       </div>
   <div class="flex flex-col md:flex-row relative overflow-x-auto justify-center w-full sm:px-16 lg:px-8">
     <table class="align-center">
