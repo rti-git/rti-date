@@ -57,7 +57,7 @@
     </table>
     
   </div>
-<div
+<!--<div
     class="flex flex-col items-center text-black text-4xl md:text-4xl gap-1 md:gap-2 p-12"
   >
     <p>以上得獎人請於10月12日前把郵寄禮物資訊─</p>
@@ -70,5 +70,5 @@
         >，逾期視同放棄！</span
       >
     </div>
-  </div>
+  </div>-->
 </template>
