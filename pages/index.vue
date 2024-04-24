@@ -8,8 +8,8 @@
 
 <template>
   <Home />
- <!-- <Content />
   <Form />
+ <!-- <Content />
   <Intr /> -->
   <Gift />
   <Footer />

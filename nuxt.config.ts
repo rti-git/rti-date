@@ -15,7 +15,10 @@ export default defineNuxtConfig({
     },
   },
   gtag: {
-    id: 'G-KGNXH2BNGX'
+    id: ''
   },
   css: ['@/assets/css/tailwind.css'],
+   "nitro": {
+   "plugins": ["~/server/db/index.js"],
+ },
 })
