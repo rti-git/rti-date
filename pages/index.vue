@@ -1,5 +1,5 @@
 <script setup>
-    const title = ref('臺灣心玩法')
+    const title = ref('與臺灣有約')
     useHead({
         title,
     })
@@ -8,9 +8,11 @@
 
 <template>
   <Home />
+  <Main />
+  <Content />
   <Form />
- <!-- <Content />
-  <Intr /> -->
+  <!-- <Intr /> -->
   <Gift />
+  <Notice />
   <Footer />
 </template>

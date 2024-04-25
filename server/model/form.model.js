@@ -9,7 +9,22 @@ const formSchema = new mongoose.Schema({
     },
     mesg: {
         type: String
-    }
+    },
+    religiousPlace: {
+        type: String
+    },
+    phone: {
+        type: Number
+    },
+    birthdate: {
+        type: Date
+    },
+    location: {
+        type: String
+    },
+    area: {
+        type: String
+    },
 });
 
 const form = mongoose.model("rti", formSchema, "form");

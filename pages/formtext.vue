@@ -2,16 +2,65 @@
   <div
     class="mx-auto block max-w-md rounded-lg bg-white p-6 shadow-4 dark:bg-surface-dark"
   >
+  <form @submit.prevent="createForm">
+    <!--Region input-->
+    <div class="relative mb-6" data-twe-input-wrapper-init>
+      你心中最具代表的台灣宗教聖地 <br>
+      <label v-for="(place, index) in religiousPlaces" :key="index" class="flex top-0 mb-0"
+        >
+          {{ index + 1 }} {{ place }}
+          <input
+            type="radio"
+            class="bg-gray-300"
+            :id="'place' + (index + 1)"
+            name="religiousPlace"
+            :value="place"
+            v-model="formData.religiousPlace"
+            required
+          />
+      </label>
+    </div>
+
+    <!--Message textarea-->
+    <div class="relative mb-6" data-twe-input-wrapper-init>
+      <label
+        for="exampleFormControlTextarea13"
+        class="pointer-events-none left-3 top-0 mb-0 max-w-[90%]"
+        >寫下你對這個台灣宗教聖地的獨特體驗或想法
+      </label>
+      <textarea
+        class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+        id="exampleFormControlTextarea13"
+        rows="3"
+        v-model="formData.mesg"
+        placeholder=""
+        required
+      ></textarea>
+    </div>
+
     <!--Name input-->
     <div class="relative mb-6" data-twe-input-wrapper-init>
       <label for="exampleInput7" class="pointer-events-none left-3 top-0 mb-0"
-        >姓名:
+        >姓名(暱稱)
       </label>
       <input
         type="text"
         class="peer block min-h-[auto] w-full bg-gray-300 rounded border-0"
         id="exampleInput7"
         v-model="formData.name"
+        required
+      />
+    </div>
+
+    <!-- Date input -->
+    <div class="relative mb-6" data-twe-input-wrapper-init>
+      <label for="birthdate" class="block">出生年月日:</label>
+      <input
+        type="date"
+        id="birthdate"
+        name="birthdate"
+        v-model="formData.birthdate"
+        class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
         required
       />
     </div>
@@ -30,32 +79,56 @@
       />
     </div>
 
-    <!--Message textarea-->
+    <!-- Phone input -->
     <div class="relative mb-6" data-twe-input-wrapper-init>
-      <label
-        for="exampleFormControlTextarea13"
-        class="pointer-events-none left-3 top-0 mb-0 max-w-[90%]"
-        >內容
-      </label>
-      <textarea
-        class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-        id="exampleFormControlTextarea13"
-        rows="3"
-        v-model="formData.mesg"
-        placeholder=""
+      <label for="phone" class="block">電話:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        v-model="formData.phone"
+        pattern="[0-9]{1,10}"
+        class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
         required
-      ></textarea>
+      />
+    </div>
+
+    <!--Location input-->
+    <div class="relative mb-6" data-twe-input-wrapper-init>
+      <label for="exampleInput7" class="pointer-events-none left-3 top-0 mb-0"
+        >所在地(選填)
+      </label>
+      <input
+        type="text"
+        class="peer block min-h-[auto] w-full bg-gray-300 rounded border-0"
+        id="exampleInput7"
+        v-model="formData.location"
+      />
+    </div>
+
+    <!--Area input-->
+    <div class="relative mb-6" data-twe-input-wrapper-init>
+      <label for="exampleInput7" class="pointer-events-none left-3 top-0 mb-0"
+        >地理位置和國家地區
+      </label>
+      <input
+        type="text"
+        class="peer block min-h-[auto] w-full bg-gray-300 rounded border-0"
+        id="exampleInput7"
+        v-model="formData.area"
+        required
+      />
     </div>
 
     <!--Submit button-->
     <button
       type="submit"
       class="inline-block w-full rounded bg-red-300 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-red shadow-primary-3"
-      @click="createForm"
     >
       發送
     </button>
-  </div>
+  </form>
+</div>
 
   <div class="form">
     <div class="form_item" v-for="form in formList" :key="form._id">
@@ -64,7 +137,6 @@
         <input v-else type="text" class="name_info" />
       </div>
     </div>
-    <div class=""></div>
   </div>
 </template>
 
@@ -73,14 +145,39 @@ const { data: formList, refresh } = await useFetch("/api/form");
 
 const formData = ref({
   name: "",
+  religiousPlace: "",
   email: "",
+  phone: "",
+  birthdate: "",
   mesg: "",
+  location: "",
+  area: ""
 });
 
+const religiousPlaces = [
+      "屏東東隆宮",
+      "台南大天后宮",
+      "北港朝天宮",
+      "大甲鎮澖宮",
+      "白沙屯拱天宮",
+      "屏東萬金天主堂",
+      "台北聖家堂",
+      "高雄佛光山",
+      "埔里中台山",
+      "台北艋舺龍山寺",
+      "大龍峒保安宮",
+      "台北清真寺"
+    ];
+
 const resetForm = () => {
+  formData.value.religiousPlace = "";
   formData.value.name = "";
   formData.value.email = "";
   formData.value.mesg = "";
+  formData.value.birthdate= "";
+  formData.value.phone = "";
+  formData.value.location = "";
+  formData.value.area = ""
 };
 
 const createForm = async () => {
@@ -88,8 +185,13 @@ const createForm = async () => {
     method: "POST",
     body: {
       name: formData.value.name,
+      religiousPlace: formData.value.religiousPlace,
       email: formData.value.email,
       mesg: formData.value.mesg,
+      phone: formData.value.phone,
+      birthdate: formData.value.birthdate,
+      location: formData.value.location,
+      area: formData.value.area
     },
   });
   refresh();
