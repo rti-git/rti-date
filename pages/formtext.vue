@@ -4,14 +4,14 @@
   >
   <form @submit.prevent="createForm">
     <!--Region input-->
-    <div class="relative mb-6" data-twe-input-wrapper-init>
-      你心中最具代表的台灣宗教聖地 <br>
-      <label v-for="(place, index) in religiousPlaces" :key="index" class="flex top-0 mb-0"
+    <div class="relative mb-8 text-2xl" data-twe-input-wrapper-init>
+      <div class="pb-4">你心中最具代表的台灣宗教聖地 </div>
+      <label v-for="(place, index) in religiousPlaces" :key="index" class="flex text-xl top-0 mb-0 pt-2"
         >
-          {{ index + 1 }} {{ place }}
+          {{ index + 1 }}   {{ place }}
           <input
             type="radio"
-            class="bg-gray-300"
+            class="bg-gray-300 ml-2"
             :id="'place' + (index + 1)"
             name="religiousPlace"
             :value="place"
@@ -25,7 +25,7 @@
     <div class="relative mb-6" data-twe-input-wrapper-init>
       <label
         for="exampleFormControlTextarea13"
-        class="pointer-events-none left-3 top-0 mb-0 max-w-[90%]"
+        class="pointer-events-none left-3 op-0 mb-0 max-w-[90%]"
         >寫下你對這個台灣宗教聖地的獨特體驗或想法
       </label>
       <textarea
