@@ -5,7 +5,7 @@
   <form @submit.prevent="createForm">
     <!--Region input-->
     <div class="relative mb-8 text-2xl" data-twe-input-wrapper-init>
-      <div class="pb-4">你心中最具代表的台灣宗教聖地 </div>
+      <div class="pb-4">你心中最具代表的台灣宗教勝地 </div>
       <label v-for="(place, index) in religiousPlaces" :key="index" class="flex text-xl top-0 mb-0 pt-2"
         >
           {{ index + 1 }}   {{ place }}
@@ -26,10 +26,10 @@
       <label
         for="exampleFormControlTextarea13"
         class="pointer-events-none left-3 op-0 mb-0 max-w-[90%]"
-        >寫下你對這個台灣宗教聖地的獨特體驗或想法
+        >寫下你對這個台灣宗教勝地的獨特體驗或想法
       </label>
       <textarea
-        class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+        class="peer block min-h-[auto] w-full rounded border-2 border-red-200 bg-transparent px-3  outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
         id="exampleFormControlTextarea13"
         rows="3"
         v-model="formData.mesg"
@@ -72,7 +72,7 @@
       </label>
       <input
         type="email"
-        class="peer block min-h-[auto] w-full bg-gray-300 rounded border-0"
+        class="block min-h-[auto] w-full bg-gray-300 rounded border-0"
         id="exampleInput8"
         v-model="formData.email"
         required
@@ -88,7 +88,7 @@
         name="phone"
         v-model="formData.phone"
         pattern="[0-9]{1,10}"
-        class="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+        class="block w-full rounded-md border-gray-800 bg-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
         required
       />
     </div>
@@ -130,14 +130,14 @@
   </form>
 </div>
 
-  <div class="form">
+ <!-- <div class="form">
     <div class="form_item" v-for="form in formList" :key="form._id">
       <div class="form_name">
         <p v-if="true">{{ form.name }}</p>
         <input v-else type="text" class="name_info" />
       </div>
     </div>
-  </div>
+ </div>-->
 </template>
 
 <script setup lang="ts">

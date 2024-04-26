@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center text-white bg-rti_ing_feet text-2xl md:text-4xl gap-1 md:gap-2 p-12"
+    class="date flex flex-col items-center text-white text-2xl md:text-4xl gap-1 md:gap-2 p-12"
   >
     <h2 class="text-4xl font-bold">活動日期</h2>
     <p class="pt-8">113年5月2日~113年6月14日 <br> (得獎公佈日期:113年6月28日)</p>
@@ -22,3 +22,9 @@
         </div> -->
   </div>
 </template>
+
+<style>
+.date{
+  background-color: #a6af94;
+}
+</style>

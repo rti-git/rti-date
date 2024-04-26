@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col bg-rti_spot_bg h-auto text-4xl p-16 sm:px-16 lg:px-64"
+    class="gift flex flex-col h-auto text-4xl p-16 sm:px-16 lg:px-64"
   >
     <h2 class="font-bold text-rti_spot_title pb-8">活動贈品：</h2>
     <div
@@ -47,6 +47,7 @@
         </div>
       </div>
     </div>
+  <p class="text-sm text-center">(本產品圖片僅供參考，實品請以實物為主)</p>
   </div>
   <!-- <div class="wrap flex flex-col items-center pt-8 pb-8">
         <h2 class="text-4xl text-red-600">臺灣心玩法有獎徵答活動-得獎名單</h2>
@@ -91,3 +92,9 @@
     </div>
   </div>-->
 </template>
+
+<style>
+.gift{
+  background-color: #a6af94;
+}
+</style>

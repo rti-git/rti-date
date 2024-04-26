@@ -1,9 +1,9 @@
 <template>
   <div
-    class="flex flex-col text-rti_spot_title bg-rti_spot_bg text-2xl md:text-4xl md:gap-2 gap-8 p-16 px-8 sm:px-16 lg:px-64"
+    class="flex flex-col text-rti_spot_title text-2xl md:text-4xl md:gap-2 gap-8 p-16 px-8 sm:px-16 lg:px-64"
   >
     <main class="flex justify-center">
-      <NuxtLink to="/formtext" class="p-4 border-4 border-red-500">填寫表單</NuxtLink>
+      <NuxtLink to="/form" class="p-4 border-4 border-red-500">填寫表單</NuxtLink>
     </main>
     <!-- <div
       class="flex flex-col md:flex-row justify-between items-center p-12 pb-8 lg:px-16"

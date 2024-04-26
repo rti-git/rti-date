@@ -3,7 +3,7 @@
       <div class="flex text-2xl md:flex-wrap-reverse lg:text-4xl gap-8 p-16 md:p-8 px-8 sm:px-16 lg:px-64">
         <p class="text-2xl">台灣是一個宗教信仰自由的國家，各種宗教活動不僅展現了傳統文化，也促進了與世界文化的交流。在各個宗教的努力下，這些散布台灣各地的宗教寺廟也逐漸形成廣受注意的標誌性建築物。央廣今年特別企劃「台灣十大宗教勝地」票選活動，邀請大家一起探索這些兼具宗教與觀光功能的精采文化地標。</p>
     </div>
-    <h2 class="text-blue-500 text-4xl font-black p-8 ">台灣十大宗教聖地介紹</h2>
+    <h2 class="text-blue-500 text-4xl font-black p-8 ">台灣十大宗教勝地介紹</h2>
 
 
     <ul class="flex flex-col  list-decimal pt-8 px-12 space-y-4 lg:px-64 sm:px-16">
