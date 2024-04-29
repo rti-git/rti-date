@@ -16,3 +16,9 @@
   <Notice />
   <Footer />
 </template>
+
+<style>
+.form{
+  background-color: #a6af94;
+}
+</style>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto block max-w-md rounded-lg bg-white p-6 shadow-4 dark:bg-surface-dark"
+    class="form mx-auto block w-1/2 p-6 shadow-4 dark:bg-surface-dark"
   >
   <form @submit.prevent="createForm">
     <!--Region input-->
@@ -219,3 +219,10 @@ const createForm = async () => {
 //   }
 // }
 </script>
+
+
+<style>
+.form{
+  background-color: #a6af94;
+}
+</style>
