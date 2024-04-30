@@ -12,7 +12,7 @@
     <ul class="text-3xl text-rti_spot_text pt-8">
       <li>1.透過<span class="text-red-500">「活動表單」</span>進行投票，選出您心中最具代表性的<span class="text-red-500">台灣宗教勝地</span>。</li>
       <li>
-        2.針對你選出的<span class="text-red-500">「台灣宗教勝地」</span>兩百字內的短文，分享您在這些神聖地點的獨特體驗或想法。。
+        2.針對你選出的<span class="text-red-500">「台灣宗教勝地」</span>兩百字內的短文，分享您在這些神聖地點的獨特體驗或想法。
       </li>
     </ul>
     <!-- <div class="text-rti_spot_text">
