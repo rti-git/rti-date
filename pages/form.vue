@@ -26,7 +26,7 @@
       <label
         for="exampleFormControlTextarea13"
         class="pointer-events-none left-3 op-0 mb-0 max-w-[90%]"
-        >寫下你對這個台灣宗教勝地的獨特體驗或想法
+        >寫下你對這個台灣宗教勝地的獨特體驗或想法(必填)
       </label>
       <textarea
         class="peer block min-h-[auto] w-full rounded border-2 border-red-200 bg-transparent px-3  outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
@@ -54,7 +54,7 @@
 
     <!-- Date input -->
     <div class="relative mb-6" data-twe-input-wrapper-init>
-      <label for="birthdate" class="block">出生年月日:</label>
+      <label for="birthdate" class="block">出生年月日(必填)</label>
       <input
         type="date"
         id="birthdate"
@@ -68,7 +68,7 @@
     <!--Email input-->
     <div class="relative mb-6" data-twe-input-wrapper-init>
       <label for="exampleInput8" class="pointer-events-none left-3 top-0 mb-0"
-        >Email:
+        >Email(必填)
       </label>
       <input
         type="email"
@@ -81,7 +81,7 @@
 
     <!-- Phone input -->
     <div class="relative mb-6" data-twe-input-wrapper-init>
-      <label for="phone" class="block">電話:</label>
+      <label for="phone" class="block">電話(選填)</label>
       <input
         type="tel"
         id="phone"
@@ -89,7 +89,6 @@
         v-model="formData.phone"
         pattern="[0-9]{1,10}"
         class="block w-full rounded-md border-gray-800 bg-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-        required
       />
     </div>
 
@@ -109,7 +108,7 @@
     <!--Area input-->
     <div class="relative mb-6" data-twe-input-wrapper-init>
       <label for="exampleInput7" class="pointer-events-none left-3 top-0 mb-0"
-        >地理位置和國家地區
+        >地理位置和國家地區(必填)
       </label>
       <input
         type="text"
@@ -161,11 +160,9 @@ const religiousPlaces = [
       "大甲鎮澖宮",
       "白沙屯拱天宮",
       "屏東萬金天主堂",
-      "台北聖家堂",
       "高雄佛光山",
       "埔里中台山",
       "台北艋舺龍山寺",
-      "大龍峒保安宮",
       "台北清真寺"
     ];
 
@@ -198,6 +195,10 @@ const createForm = async () => {
   alert("已送出");
   resetForm();
 };
+
+
+//const bir = formData.birthdate.toDateString().split('T')[0];
+console.log(formData.birthdate);
 
 //  const submit = async () => {
 //   try {
