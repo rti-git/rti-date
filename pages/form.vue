@@ -1,6 +1,6 @@
 <template>
   <div
-    class="form mx-auto block w-1/2 p-6 shadow-4 dark:bg-surface-dark"
+    class="form mx-auto block w-full md:w-1/2 p-6 shadow-4 dark:bg-surface-dark"
   >
   <form @submit.prevent="createForm">
     <!--Region input-->
@@ -75,7 +75,7 @@
         class="block min-h-[auto] w-full bg-gray-300 rounded border-0"
         id="exampleInput8"
         v-model="formData.email"
-        required
+        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
       />
     </div>
 
@@ -89,6 +89,7 @@
         v-model="formData.phone"
         pattern="[0-9]{1,10}"
         class="block w-full rounded-md border-gray-800 bg-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+        maxlength="10"
       />
     </div>
 
