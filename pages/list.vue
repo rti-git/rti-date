@@ -1,27 +1,35 @@
 <template>
-
- <div class="">
-    <div class="form_item" v-for="form in data" :key="form._id">
-      <div class="flex form_name">
-        <div v-if="true">
-        {{ form.religiousPlace }},
-        {{ form.birthdate.split('T')[0] }},
-        {{ form.email }},
-        {{ form.phone }},
-        {{ form.location }},
-        {{ form.area }}, </div>
-        <div>內容:{{ form.mesg }}</div>
-        <div>名稱:{{ form.name }}</div>
+    <div class="form_item md:w-1/2 p-2" v-for="form in data" :key="form._id">
+      <div class="form_name">
+        <div v-if="true" class="flex-wrap border-2 border-black p-2 mb-2">
+          <div class="">{{ form.religiousPlace }}</div>
+          <div>{{ form.email }}</div>
+          <div>{{ form.birthdate.split('T')[0] }}</div>
+          <div>{{ form.phone }}</div>
+          <div>{{ form.location }}</div>
+          <div>{{ form.area }}</div>
+          <div>內容:{{ form.mesg }}</div>
+          <div>名稱:{{ form.name }}</div>
+        </div>
       </div>
+      <!-- <button class="remove_btn border-2 border-red-950 m-1" @click="deleteform(form._id)">刪除</button> -->
     </div>
- </div>
 </template>
 
 
 <script setup lang="ts">
-const { data } = await useFetch("/api/form");
+const { data, refresh } = await useFetch("/api/form");
 
-//const formData = ref({
+const deleteform = async (_id) => {
+  await $fetch('/api/form/remove', {
+    method: 'delete',
+    body: {
+      _id
+    }
+  });
+  await refresh();
+}
+//const formdata = ref({
 //  name: "",
 //  religiousPlace: "",
 //  email: "",
