@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="gift flex flex-col h-auto text-4xl p-16 sm:px-16 lg:px-64"
-  >
+  <div class="gift flex flex-col h-auto text-4xl p-16 sm:px-16 lg:px-64">
     <h2 class="font-bold text-rti_spot_title pb-8">活動贈品：</h2>
     <div
       class="flex flex-col text-center md:flex-row h-3/5 lg:px-68 justify-between pb-8 text-rti_ing_white"
@@ -47,7 +45,30 @@
         </div>
       </div>
     </div>
-  <p class="text-sm text-center">(本產品圖片僅供參考，實品請以實物為主)</p>
+    <p class="text-sm text-center">(本產品圖片僅供參考，實品請以實物為主)</p>
+  <div
+    class="flex flex-col md:flex-row relative overflow-x-auto justify-center w-full pt-8 sm:px-16 lg:px-8"
+  >
+    <table class="align-center">
+      <thead>
+        <tr class="bg-blue-200 border text-base">
+          <th class="p-4">濁手花卉紋隨身杯三名</th>
+          <th>寫意荷花絲巾三名</th>
+          <th>島嶼精油三名</th>
+          <th>海洋精油十名</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="w-auto md:1/5 border-2 border-gray-300 focus:border-gray-300 text-center" tabindex="0">
+          <td class="border-2 border-gray-300 hover:bg-gray-100 px-8 py-4">金о<br>方о藝<br>李о</td>
+          <td class="border-2 border-gray-300 hover:bg-gray-100 px-8 py-4">許о祥<br />水о星о<br>關о江</td>
+          <td class="border-2 border-gray-300 hover:bg-gray-100 px-8 py-4">Ng о ifok<br />關о斌<br>E о c</td>
+          <td class="border-2 border-gray-300 hover:bg-gray-100 px-8 py-4">泽о<br />QUAN о KIEN<br>羅о兒<br>黃о銓<br>美о子cindy<br>Pa о al<br>咪о拳<br>山о<br>高о<br>皓о</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   </div>
   <!-- <div class="wrap flex flex-col items-center pt-8 pb-8">
         <h2 class="text-4xl text-red-600">臺灣心玩法有獎徵答活動-得獎名單</h2>
@@ -94,7 +115,7 @@
 </template>
 
 <style>
-.gift{
+.gift {
   background-color: #a6af94;
 }
 </style>
